@@ -16,6 +16,9 @@ public class Board {
             }
         }
     }
+    public int getSize(){
+        return size;
+    }
     public void display(){
     for(int i=0;i<size;i++){
         for(int j=0;j<size;j++){
@@ -24,5 +27,14 @@ public class Board {
         System.out.println();
     }
 
+    }
+    public List<List<Cell>>getGrid(){
+        return grid;
+    }
+    public void setGrid(List<List<Cell>> grid){
+        this.grid=grid;
+    }
+    public Cell getCell(int row,int col){
+        return grid.get(row).get(col);
     }
 }

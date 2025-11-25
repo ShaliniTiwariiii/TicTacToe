@@ -10,7 +10,7 @@ public class GameClient {
 
     Game game=gameController.startGame();
     gameController.display(game);
-    while(gameController.getGameState(game).equals(GameState.NOT_STARTED)){
+    while(gameController.getGameState(game).equals(GameState.IN_PROGRESS)){
         gameController.display(game);
         gameController.makeMove(game);
     }

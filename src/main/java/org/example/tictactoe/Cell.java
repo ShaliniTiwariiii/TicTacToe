@@ -31,6 +31,7 @@ public class Cell {
     public int getCol() {
         return col;
     }
+
     public void setCol(int col) {
         this.col = col;
     }

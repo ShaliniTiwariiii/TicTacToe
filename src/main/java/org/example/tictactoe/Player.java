@@ -11,6 +11,7 @@ public abstract class Player {
         this.playerType=playerType;
         this.symbol=symbol;
     }
+    public abstract Move makeMove(Board board);
     public Integer getId() {
         return id;
     }
@@ -23,4 +24,5 @@ public abstract class Player {
     public String getName() {
         return name;
     }
+   ;
 }

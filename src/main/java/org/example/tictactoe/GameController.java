@@ -23,7 +23,7 @@ public class GameController {
         game.display();
     }
     public void makeMove(Game game){
-
+        game.makeMove();
     }
     public String getWinner(Game game){
         return game.getWinner().getName();
