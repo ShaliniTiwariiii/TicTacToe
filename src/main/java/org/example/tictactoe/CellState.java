@@ -1,6 +1,6 @@
 package org.example.tictactoe;
 
 public enum CellState {
-    FILED,
+    FILLED,
     EMPTY
 }
